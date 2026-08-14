@@ -11,7 +11,7 @@ import pandas as pd
 def timing_comparison():
     print("=== Timing: List vs NumPy ===\n")
 
-    size = 1_000_000
+    size = 1_000_000google c
 
     start = time.perf_counter()
     python_list = [x ** 2 for x in range(size)]
