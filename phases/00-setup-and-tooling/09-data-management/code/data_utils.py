@@ -1,10 +1,10 @@
-import hashlib
-import json
 import sys
+import json
+import hashlib
 from pathlib import Path
 
 try:
-    from datasets import Dataset, load_dataset
+    from datasets import load_dataset, Dataset
 except ImportError:
     print("Install the datasets library: pip install datasets")
     sys.exit(1)
